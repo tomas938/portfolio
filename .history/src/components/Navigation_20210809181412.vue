@@ -220,14 +220,6 @@ header {
 svg {
 	width: 75px;
 	height: 75px;
-	@media only screen and (max-width: 645px) {
-		width: 60px;
-		height: 60px;
-	}
-	@media only screen and (max-width: 400px) {
-		width: 40px;
-		height: 40px;
-	}
 }
 .active {
 	visibility: visible;

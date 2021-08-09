@@ -35,7 +35,7 @@
 				@click="toggleMobileNav"
 				v-show="mobile"
 			>
-				<svg class="line" width="0" height="0" viewBox="0 0 100 100">
+				<svg class="line" width="60" height="60" viewBox="0 0 100 100">
 					<path
 						class="line line1"
 						:class="{ active: mobileNav }"
@@ -215,18 +215,6 @@ header {
 	li {
 		margin-bottom: 4rem;
 		text-align: center;
-	}
-}
-svg {
-	width: 75px;
-	height: 75px;
-	@media only screen and (max-width: 645px) {
-		width: 60px;
-		height: 60px;
-	}
-	@media only screen and (max-width: 400px) {
-		width: 40px;
-		height: 40px;
 	}
 }
 .active {
