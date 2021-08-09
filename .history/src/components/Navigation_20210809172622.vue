@@ -215,6 +215,8 @@ header {
 	li {
 		margin-bottom: 4rem;
 		text-align: center;
+		a {
+		}
 	}
 }
 .active {

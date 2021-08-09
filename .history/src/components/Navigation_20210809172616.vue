@@ -210,11 +210,13 @@ header {
 	opacity: 0;
 	transition: all 0.6s ease-in-out;
 	font-size: 10rem;
-	color: white;
 
 	li {
 		margin-bottom: 4rem;
 		text-align: center;
+		a {
+			color: white;
+		}
 	}
 }
 .active {

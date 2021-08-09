@@ -3,7 +3,7 @@ import App from "./App.vue";
 import VueSmoothScroll from "vue3-smooth-scroll";
 createApp(App)
 	.use(VueSmoothScroll, {
-		duration: 1500,
+		duration: 2000,
 		updateHistory: false,
 	})
 	.mount("#app");

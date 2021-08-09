@@ -7,11 +7,7 @@
 			<div class="navigation__links">
 				<ul v-show="!mobile">
 					<li>
-						<router-link
-							class="link"
-							href="#sec-3"
-							v-smooth-scroll
-							:to="{ name: 'Home' }"
+						<router-link class="link" href="#sec-3" :to="{ name: 'Home' }"
 							>Home</router-link
 						>
 					</li>
@@ -61,13 +57,7 @@
 				v-show="mobileNav"
 			>
 				<li>
-					<router-link
-						class="link"
-						href="#sec-3"
-						v-smooth-scroll
-						:to="{ name: 'Home' }"
-						>Home</router-link
-					>
+					<router-link class="link" :to="{ name: 'Home' }">Home</router-link>
 				</li>
 				<li>
 					<router-link class="link" :to="{ name: 'Home' }">About</router-link>
@@ -209,12 +199,13 @@ header {
 	visibility: hidden;
 	opacity: 0;
 	transition: all 0.6s ease-in-out;
-	font-size: 10rem;
-	color: white;
 
 	li {
 		margin-bottom: 4rem;
 		text-align: center;
+	}
+	a {
+		color: white;
 	}
 }
 .active {
