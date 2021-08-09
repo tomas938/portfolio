@@ -157,10 +157,6 @@ export default {};
 	.links {
 		display: flex;
 		justify-content: space-around;
-		@media only screen and (max-width: 600px) {
-			flex-direction: column;
-			grid-gap: 3rem;
-		}
 	}
 	.github,
 	.netlify {
@@ -171,9 +167,6 @@ export default {};
 		cursor: pointer;
 		animation: pressed-reverse 0.3s ease-in-out;
 		animation-fill-mode: backwards;
-		@media only screen and (max-width: 600px) {
-			justify-content: center;
-		}
 
 		i {
 			margin-right: 2rem;

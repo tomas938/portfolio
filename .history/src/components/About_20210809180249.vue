@@ -45,9 +45,6 @@ export default {};
 @import "@/scss/main.scss";
 .about {
 	height: 100vh;
-	@media only screen and (max-width: 600px) {
-		padding: 0rem 10rem;
-	}
 	&__content {
 		padding: 10rem;
 		font-size: 3rem;
@@ -58,6 +55,10 @@ export default {};
 		@media only screen and (max-width: 1000px) {
 			text-align: center;
 			padding: 10rem 0rem;
+		}
+		@media only screen and (max-width: 6450px) {
+			text-align: center;
+			padding: 10rem;
 		}
 	}
 }

@@ -46,7 +46,7 @@ export default {};
 .about {
 	height: 100vh;
 	@media only screen and (max-width: 600px) {
-		padding: 0rem 10rem;
+		padding: 0rem 15rem;
 	}
 	&__content {
 		padding: 10rem;

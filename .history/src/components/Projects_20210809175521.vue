@@ -171,9 +171,6 @@ export default {};
 		cursor: pointer;
 		animation: pressed-reverse 0.3s ease-in-out;
 		animation-fill-mode: backwards;
-		@media only screen and (max-width: 600px) {
-			justify-content: center;
-		}
 
 		i {
 			margin-right: 2rem;

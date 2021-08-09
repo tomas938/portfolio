@@ -33,7 +33,7 @@ html {
 	@media only screen and (max-width: 645px) {
 		font-size: 32.5%;
 	}
-	@media only screen and (max-width: 400px) {
+	@media only screen and (max-width: 305px) {
 		font-size: 22.5%;
 	}
 }

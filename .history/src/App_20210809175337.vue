@@ -30,12 +30,9 @@ html {
 	@media only screen and (max-width: 1550px) {
 		font-size: 42.5%;
 	}
-	@media only screen and (max-width: 645px) {
-		font-size: 32.5%;
-	}
-	@media only screen and (max-width: 400px) {
-		font-size: 22.5%;
-	}
+	// @media only screen and (max-width: 1200px) {
+	// 	font-size: 52.5%;
+	// }
 }
 body {
 	font-family: $font-primary;
@@ -69,8 +66,5 @@ h3 {
 }
 section {
 	padding: 15rem 10rem;
-	@media only screen and (max-width: 600px) {
-		padding: 15rem 0rem;
-	}
 }
 </style>

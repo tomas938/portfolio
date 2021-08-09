@@ -69,8 +69,8 @@ h3 {
 }
 section {
 	padding: 15rem 10rem;
-	@media only screen and (max-width: 600px) {
-		padding: 15rem 0rem;
-	}
+	// @media only screen and (max-width: 600px) {
+	// 	padding: 15rem 0rem;
+	// }
 }
 </style>

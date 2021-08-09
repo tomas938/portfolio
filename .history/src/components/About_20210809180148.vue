@@ -45,9 +45,6 @@ export default {};
 @import "@/scss/main.scss";
 .about {
 	height: 100vh;
-	@media only screen and (max-width: 600px) {
-		padding: 0rem 10rem;
-	}
 	&__content {
 		padding: 10rem;
 		font-size: 3rem;

@@ -24,17 +24,11 @@ export default {
 }
 html {
 	font-size: 62.5%;
-	@media only screen and (max-width: 1850px) {
+	@media only screen and (max-width: 1700px) {
 		font-size: 52.5%;
 	}
-	@media only screen and (max-width: 1550px) {
+	@media only screen and (max-width: 1300px) {
 		font-size: 42.5%;
-	}
-	@media only screen and (max-width: 645px) {
-		font-size: 32.5%;
-	}
-	@media only screen and (max-width: 400px) {
-		font-size: 22.5%;
 	}
 }
 body {
@@ -54,7 +48,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #242222;
+	background: red;
 	border-radius: 10px;
 }
 h1 {
@@ -69,8 +63,5 @@ h3 {
 }
 section {
 	padding: 15rem 10rem;
-	@media only screen and (max-width: 600px) {
-		padding: 15rem 0rem;
-	}
 }
 </style>
