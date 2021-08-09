@@ -61,7 +61,7 @@
 			</div>
 			<div class="grid-item">
 				<a
-					href="https://threejssphere.netlify.app/"
+					href="https://tomaspage2.netlify.app"
 					target="_blank"
 					class="img-wrapper"
 				>
@@ -88,7 +88,7 @@
 			</div>
 			<div class="grid-item">
 				<a
-					href="https://vuecarousel.netlify.app/"
+					href="https://tomaspage2.netlify.app"
 					target="_blank"
 					class="img-wrapper"
 				>
@@ -154,6 +154,7 @@ export default {};
 		display: flex;
 		flex-direction: column;
 		grid-gap: 5rem;
+		position: relative;
 	}
 	.links {
 		display: flex;
@@ -218,10 +219,11 @@ span {
 .img-wrapper {
 	position: relative;
 	&::before {
+		content: "";
 		position: absolute;
 		height: 100%;
 		width: 100%;
-		background-color: rgba(253, 253, 253, 0.274);
+		background-color: red;
 	}
 }
 </style>

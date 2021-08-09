@@ -54,8 +54,9 @@ export default {};
 		max-width: 140rem;
 		line-height: 5rem;
 		margin: auto;
-		text-align: center;
+		text-align: left;
 		@media only screen and (max-width: 1000px) {
+			text-align: center;
 			padding: 10rem 0rem;
 		}
 	}

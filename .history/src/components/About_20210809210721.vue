@@ -56,6 +56,7 @@ export default {};
 		margin: auto;
 		text-align: center;
 		@media only screen and (max-width: 1000px) {
+			text-align: center;
 			padding: 10rem 0rem;
 		}
 	}

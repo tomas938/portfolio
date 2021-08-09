@@ -3,7 +3,6 @@
 	<Intro></Intro>
 	<Projects></Projects>
 	<About></About>
-	<Contact></Contact>
 </template>
 
 <script>
@@ -13,7 +12,7 @@ import Projects from "./components/Projects.vue";
 import About from "./components/About.vue";
 import Contact from "./components/Contact.vue";
 export default {
-	components: { Intro, Navigation, Projects, About, Contact },
+	components: { Intro, Navigation, Projects, About },
 };
 </script>
 

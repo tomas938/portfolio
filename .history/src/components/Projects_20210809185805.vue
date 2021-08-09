@@ -39,7 +39,6 @@
 				>
 					<img src="../imgs/project.2.png" alt="loopstudios project" />
 				</a>
-
 				<div class="links">
 					<a
 						href="https://github.com/tomas938/loopstudios-landing-page-main"
@@ -61,7 +60,7 @@
 			</div>
 			<div class="grid-item">
 				<a
-					href="https://threejssphere.netlify.app/"
+					href="https://tomaspage2.netlify.app"
 					target="_blank"
 					class="img-wrapper"
 				>
@@ -88,7 +87,7 @@
 			</div>
 			<div class="grid-item">
 				<a
-					href="https://vuecarousel.netlify.app/"
+					href="https://tomaspage2.netlify.app"
 					target="_blank"
 					class="img-wrapper"
 				>
@@ -214,14 +213,5 @@ a {
 }
 span {
 	font-size: 3rem;
-}
-.img-wrapper {
-	position: relative;
-	&::before {
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		background-color: rgba(253, 253, 253, 0.274);
-	}
 }
 </style>

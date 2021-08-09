@@ -61,7 +61,7 @@
 			</div>
 			<div class="grid-item">
 				<a
-					href="https://threejssphere.netlify.app/"
+					href="https://tomaspage2.netlify.app"
 					target="_blank"
 					class="img-wrapper"
 				>

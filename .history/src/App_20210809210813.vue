@@ -3,7 +3,6 @@
 	<Intro></Intro>
 	<Projects></Projects>
 	<About></About>
-	<Contact></Contact>
 </template>
 
 <script>

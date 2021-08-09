@@ -61,7 +61,7 @@
 			</div>
 			<div class="grid-item">
 				<a
-					href="https://threejssphere.netlify.app/"
+					href="https://tomaspage2.netlify.app"
 					target="_blank"
 					class="img-wrapper"
 				>
@@ -88,7 +88,7 @@
 			</div>
 			<div class="grid-item">
 				<a
-					href="https://vuecarousel.netlify.app/"
+					href="https://tomaspage2.netlify.app"
 					target="_blank"
 					class="img-wrapper"
 				>
@@ -218,6 +218,8 @@ span {
 .img-wrapper {
 	position: relative;
 	&::before {
+		content: "Thi is vue project";
+		font-size: 5rem;
 		position: absolute;
 		height: 100%;
 		width: 100%;

@@ -2,10 +2,10 @@
 	<section class="about" id="sec-3">
 		<h2>About me 🧑</h2>
 		<div class="about__content">
-			Hello, my name is <span>Tomáš</span> and I am 21 years old.I'm currently
-			studying fire protection 👨‍🚒 at technical University in Zvolen.I know it's
-			little bit strange but one day I saw video on youtube about coding and I
-			found new hobby .I started to learn and it became more serious after I
+			Hello, my name is <span>Tomáš</span> and i am 21 years old.I'm currently
+			studying fire protection 👨‍🚒 at technical University in Zvolen. I know it's
+			little bit strange but one day I saw video on youtube about coding and i
+			found new hobby . I started to learn and it became more serious after I
 			take my first course at Udemy and it was about
 			<a
 				class="js"
@@ -30,7 +30,7 @@
 			<a class="threejs" target="_blank" href="https://threejs-journey.xyz/"
 				>Three.js</a
 			>
-			which I didn't finish yet.I'm also like sports espacialy football ⚽. In
+			which I did not finish yet.I'm also like sports espacialy football ⚽. In
 			my free time I like to watch live-streams at twitch and I also like play
 			video games 🎮.
 		</div>
@@ -54,8 +54,9 @@ export default {};
 		max-width: 140rem;
 		line-height: 5rem;
 		margin: auto;
-		text-align: center;
+		text-align: left;
 		@media only screen and (max-width: 1000px) {
+			text-align: center;
 			padding: 10rem 0rem;
 		}
 	}

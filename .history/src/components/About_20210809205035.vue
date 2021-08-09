@@ -30,9 +30,9 @@
 			<a class="threejs" target="_blank" href="https://threejs-journey.xyz/"
 				>Three.js</a
 			>
-			which I didn't finish yet.I'm also like sports espacialy football ⚽. In
-			my free time I like to watch live-streams at twitch and I also like play
-			video games 🎮.
+			which I didn't finish yet finish yet.I'm also like sports espacialy
+			football ⚽. In my free time I like to watch live-streams at twitch and I
+			also like play video games 🎮.
 		</div>
 	</section>
 </template>
@@ -54,8 +54,9 @@ export default {};
 		max-width: 140rem;
 		line-height: 5rem;
 		margin: auto;
-		text-align: center;
+		text-align: left;
 		@media only screen and (max-width: 1000px) {
+			text-align: center;
 			padding: 10rem 0rem;
 		}
 	}
