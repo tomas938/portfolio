@@ -1,0 +1,269 @@
+<template>
+	<header id="home">
+		<nav class="navigation">
+			<div class="navigation__logo">
+				<h3>Portfolio.</h3>
+			</div>
+			<div class="navigation__links">
+				<ul v-show="!mobile">
+					<li>
+						<router-link
+							class="link"
+							href="#home"
+							v-smooth-scroll
+							:to="{ name: 'Home' }"
+							>Home</router-link
+						>
+					</li>
+					<li>
+						<router-link
+							class="link"
+							href="#projects"
+							v-smooth-scroll
+							:to="{ name: 'Home' }"
+							>Projects</router-link
+						>
+					</li>
+					<li>
+						<router-link
+							class="link"
+							href="#about"
+							v-smooth-scroll
+							:to="{ name: 'Home' }"
+							>About</router-link
+						>
+					</li>
+					<li>
+						<router-link
+							class="link"
+							href="#contact"
+							v-smooth-scroll
+							:to="{ name: 'Home' }"
+							>Contact</router-link
+						>
+					</li>
+				</ul>
+			</div>
+			<div
+				class="navigation__hamburger"
+				@click="toggleMobileNav"
+				v-show="mobile"
+			>
+				<svg class="line" width="0" height="0" viewBox="0 0 100 100">
+					<path
+						class="line line1"
+						:class="{ active: mobileNav }"
+						d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+					/>
+					<path
+						class="line line2"
+						:class="{ active: mobileNav }"
+						d="M 20,50 H 80"
+					/>
+					<path
+						class="line line3"
+						:class="{ active: mobileNav }"
+						d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+					/>
+				</svg>
+			</div>
+		</nav>
+		<div>
+			<ul
+				class="mobile__links"
+				:class="{ active: mobileNav }"
+				v-show="mobileNav"
+			>
+				<li>
+					<router-link
+						class="link"
+						href="#sec-3"
+						v-smooth-scroll
+						:to="{ name: 'Home' }"
+						>Home</router-link
+					>
+				</li>
+				<li>
+					<router-link class="link" :to="{ name: 'Home' }">About</router-link>
+				</li>
+				<li>
+					<router-link class="link" :to="{ name: 'Home' }">Contact</router-link>
+				</li>
+			</ul>
+		</div>
+	</header>
+</template>
+<script>
+export default {
+	name: "Navigation5",
+	emits: ["hamburgerClicked"],
+	data() {
+		return {
+			mobile: null,
+			mobileNav: null,
+			windowWidth: null,
+		};
+	},
+	created() {
+		window.addEventListener("resize", this.checkScreenSize);
+		this.checkScreenSize();
+	},
+	methods: {
+		toggleMobileNav() {
+			this.mobileNav = !this.mobileNav;
+		},
+		checkScreenSize() {
+			this.windowWidth = window.innerWidth;
+			if (this.windowWidth <= 830) {
+				this.mobile = true;
+				return;
+			}
+			this.mobile = false;
+			this.mobileNav = false;
+			return;
+		},
+	},
+};
+</script>
+<style lang="scss" scoped>
+$hamburger-color: rgb(0, 0, 0);
+$navigation-bg: rgb(253, 226, 208);
+$links-color: rgba(0, 0, 0, 0.726);
+header {
+	background-color: transparent;
+	height: 20vh;
+	display: flex;
+	.navigation {
+		width: 80%;
+		@media only screen and (max-width: 1000px) {
+			width: 95%;
+		}
+		@media only screen and (max-width: 830px) {
+			width: 80%;
+		}
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&__links {
+			font-size: 4rem;
+			ul {
+				display: flex;
+				li {
+					position: relative;
+					cursor: pointer;
+					list-style: none;
+					&::before {
+						content: "";
+						display: block;
+						height: 4px;
+						width: 40%;
+						background-color: black;
+						position: absolute;
+						top: 110%;
+						left: 30%;
+						opacity: 0;
+						transition: 0.3s ease;
+					}
+					&:hover::before {
+						opacity: 1;
+						left: 0%;
+						width: 100%;
+					}
+					&:not(:last-child) {
+						margin-right: 5rem;
+					}
+				}
+				a {
+					text-decoration: none;
+					color: $links-color;
+				}
+			}
+		}
+		&__hamburger {
+			position: relative;
+			cursor: pointer;
+			z-index: 100001;
+			.line {
+				fill: none;
+				stroke: $hamburger-color;
+				stroke-width: 6;
+				transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+					stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+				&:nth-child(1) {
+					stroke-dasharray: 60 207;
+					stroke-width: 9;
+				}
+				&:nth-child(2) {
+					stroke-dasharray: 60 60;
+					stroke-width: 9;
+				}
+				&:nth-child(3) {
+					stroke-dasharray: 60 207;
+					stroke-width: 9;
+				}
+			}
+			.active {
+				&:nth-child(1) {
+					stroke-dasharray: 90 207;
+					stroke-dashoffset: -134;
+					stroke-width: 9;
+					stroke: #fff;
+				}
+				&:nth-child(2) {
+					stroke-dasharray: 1 60;
+					stroke-dashoffset: -30;
+					stroke-width: 9;
+					stroke: #fff;
+				}
+				&:nth-child(3) {
+					stroke-dasharray: 90 207;
+					stroke-dashoffset: -134;
+					stroke-width: 9;
+					stroke: #fff;
+				}
+			}
+		}
+	}
+}
+.mobile__links {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	width: 100vw;
+	min-height: 100vh;
+	padding-top: 30rem;
+	background-color: black;
+	display: block !important;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.6s ease-in-out;
+	font-size: 10rem;
+	color: white;
+
+	li {
+		margin-bottom: 4rem;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+svg {
+	width: 75px;
+	height: 75px;
+	@media only screen and (max-width: 645px) {
+		width: 60px;
+		height: 60px;
+	}
+	@media only screen and (max-width: 400px) {
+		width: 40px;
+		height: 40px;
+	}
+}
+.active {
+	visibility: visible;
+	opacity: 1;
+	transition: all 0.6s linear;
+}
+</style>
