@@ -36,6 +36,7 @@
 					<li>
 						<router-link
 							class="link"
+							@click="toggleMobileNav"
 							href="#contact"
 							v-smooth-scroll
 							:to="{ name: 'Home' }"
