@@ -133,7 +133,7 @@ span {
 
 #fourth {
 	&::before {
-		content: "VUE.JS-composition API, HTML, SASS";
+		content: "VUE.JS-composition API, HTML, SASS" <br>;
 		font-size: 3rem;
 		display: flex;
 		align-items: center;

@@ -111,7 +111,7 @@ span {
 
 #third {
 	&::before {
-		content: "THREE.JS, DAT.GUI";
+		content: "HTML, SASS, GSAP";
 		font-size: 3rem;
 		display: flex;
 		align-items: center;
@@ -133,7 +133,7 @@ span {
 
 #fourth {
 	&::before {
-		content: "VUE.JS-composition API, HTML, SASS";
+		content: "VUE.JS, HTML, SASS";
 		font-size: 3rem;
 		display: flex;
 		align-items: center;

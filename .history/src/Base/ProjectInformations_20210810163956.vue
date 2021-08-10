@@ -66,7 +66,10 @@ span {
 .img-wrapper {
 	position: relative;
 }
-#first {
+#first,
+#second,
+#third,
+#fourth {
 	&::before {
 		content: "VUE.JS, HTML, SASS";
 		font-size: 3rem;
@@ -74,72 +77,7 @@ span {
 		align-items: center;
 		justify-content: center;
 		position: absolute;
-		font-weight: $semi-bold;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		transition: all 0.4s ease-in-out;
-		opacity: 0;
-		background-color: rgba(17, 17, 17, 0.856);
-	}
-	&:hover::before {
-		opacity: 1;
-	}
-}
-#second {
-	&::before {
-		content: "HTML, SASS, GSAP";
-		font-size: 3rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		position: absolute;
-		font-weight: $semi-bold;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		transition: all 0.4s ease-in-out;
-		opacity: 0;
-		background-color: rgba(17, 17, 17, 0.856);
-	}
-	&:hover::before {
-		opacity: 1;
-	}
-}
-
-#third {
-	&::before {
-		content: "THREE.JS, DAT.GUI";
-		font-size: 3rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		position: absolute;
-		font-weight: $semi-bold;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		transition: all 0.4s ease-in-out;
-		opacity: 0;
-		background-color: rgba(17, 17, 17, 0.856);
-	}
-	&:hover::before {
-		opacity: 1;
-	}
-}
-
-#fourth {
-	&::before {
-		content: "VUE.JS-composition API, HTML, SASS";
-		font-size: 3rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		position: absolute;
-		font-weight: $semi-bold;
+		font-weight: $semi-bold: 600;;
 		top: 0;
 		left: 0;
 		height: 100%;

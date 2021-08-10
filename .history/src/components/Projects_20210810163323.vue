@@ -16,21 +16,18 @@
 				altDescription="loopstudios project"
 				image="project.2.png"
 				githubRepo="https://github.com/tomas938/loopstudios-landing-page-main"
-				id="second"
 			></Project-Informations>
 			<Project-Informations
 				liveWebsite="https://threejssphere.netlify.app/"
 				altDescription="three.js sphere"
 				image="project.3.png"
 				githubRepo="https://github.com/tomas938/18"
-				id="third"
 			></Project-Informations>
 			<Project-Informations
 				liveWebsite="https://vuecarousel.netlify.app/"
 				altDescription="vue carousel"
 				image="project.4.png"
 				githubRepo="https://github.com/tomas938/vue-3-carousel-main"
-				id="fourth"
 			></Project-Informations>
 		</div>
 	</section>

@@ -111,7 +111,7 @@ span {
 
 #third {
 	&::before {
-		content: "THREE.JS, DAT.GUI";
+		content: "THREE.JS";
 		font-size: 3rem;
 		display: flex;
 		align-items: center;

@@ -16,14 +16,14 @@
 			<a
 				class="sass"
 				target="_blank"
-				href="https://www.udemy.com/course/advanced-css-and-sass/"
+				href="https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8312878?start=0#overview"
 				>Sass</a
 			>
 			and javascript framework
 			<a
 				class="vuejs"
 				target="_blank"
-				href="https://www.udemy.com/course/vuejs-2-the-complete-guide/"
+				href="https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21880122?start=240#overview"
 				>Vue.js</a
 			>
 			and I also purchase course about 3D javascript library

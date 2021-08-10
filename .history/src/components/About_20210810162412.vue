@@ -23,7 +23,7 @@
 			<a
 				class="vuejs"
 				target="_blank"
-				href="https://www.udemy.com/course/vuejs-2-the-complete-guide/"
+				href="https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21880122?start=240#overview"
 				>Vue.js</a
 			>
 			and I also purchase course about 3D javascript library
