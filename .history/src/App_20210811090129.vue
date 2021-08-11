@@ -35,13 +35,7 @@ html {
 		font-size: 32.5%;
 	}
 	@media only screen and (max-width: 400px) {
-		font-size: 29.5%;
-	}
-	@media only screen and (max-width: 353px) {
 		font-size: 25.5%;
-	}
-	@media only screen and (max-width: 306px) {
-		font-size: 22.5%;
 	}
 }
 body {

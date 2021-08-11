@@ -41,7 +41,7 @@ html {
 		font-size: 25.5%;
 	}
 	@media only screen and (max-width: 306px) {
-		font-size: 22.5%;
+		font-size: 25.5%;
 	}
 }
 body {

@@ -19,6 +19,7 @@ export default {
 	display: flex;
 	align-items: center;
 	padding: 2rem 5rem;
+
 	border-radius: 5rem;
 	cursor: pointer;
 	animation: pressed-reverse 0.3s ease-in-out;
