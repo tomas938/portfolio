@@ -46,8 +46,7 @@
 			laboriosam fugiat distinctio blanditiis rem accusamus. Ex omnis molestias
 			ullam aut?Lorem ipsum dolor sit amet consectetur adipisicing elit.
 			Voluptas sequi ipsa magnam sunt perferendis dignissimos ex nam, voluptate
-			dolores explicabo! Lorem ipsum dolor sit amet, consectetur adipisicing
-			elit. Voluptates nesciunt in molestiae nam, praesentium accusantium?
+			dolores explicabo!
 		</div>
 	</section>
 </template>
