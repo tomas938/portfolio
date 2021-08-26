@@ -2,7 +2,7 @@
 	<header id="home">
 		<nav class="navigation">
 			<div class="navigation__logo">
-				<h3>Portfolio.</h3>
+				<h3>.Portfolio</h3>
 			</div>
 			<div class="navigation__links">
 				<ul v-show="!mobile">
@@ -178,7 +178,7 @@ header {
 						display: block;
 						height: 4px;
 						width: 40%;
-						background-color: #001220;
+						background-color: black;
 						position: absolute;
 						top: 110%;
 						left: 30%;
@@ -258,7 +258,7 @@ header {
 	width: 100vw;
 	min-height: 100vh;
 	padding-top: 30rem;
-	background-color: #001220;
+	background-color: black;
 	display: block !important;
 	visibility: hidden;
 	opacity: 0;

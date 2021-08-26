@@ -31,7 +31,6 @@ export default {
 
 <style lang="scss">
 @import "@/scss/main.scss";
-
 * {
 	margin: 0;
 	padding: 0;
@@ -59,6 +58,7 @@ body {
 	font-family: $font-primary;
 	background-color: $bg-color;
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 ::-webkit-scrollbar {

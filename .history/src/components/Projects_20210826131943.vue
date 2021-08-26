@@ -67,7 +67,7 @@ export default {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
+	color: FBAE3C;
 	.heading {
 		color: $text-color;
 		padding-bottom: 15rem;

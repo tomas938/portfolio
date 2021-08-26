@@ -140,7 +140,7 @@ span {
 	a {
 		position: relative;
 		text-decoration: none;
-		color: #001220;
+		color: black;
 		&::before {
 			content: "";
 			position: absolute;

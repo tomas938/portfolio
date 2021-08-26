@@ -25,7 +25,7 @@ export default {
 	animation-fill-mode: backwards;
 	@media only screen and (max-width: 650px) {
 		justify-content: center;
-		padding: 3.5rem 5rem;
+		padding: 5rem 5rem;
 	}
 
 	i {
@@ -40,7 +40,7 @@ export default {
 	}
 }
 .green {
-	background-color: #238636;
+	background-color: #1b1979;
 
 	i {
 		color: white;

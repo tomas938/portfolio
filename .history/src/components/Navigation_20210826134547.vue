@@ -178,7 +178,7 @@ header {
 						display: block;
 						height: 4px;
 						width: 40%;
-						background-color: #001220;
+						background-color: black;
 						position: absolute;
 						top: 110%;
 						left: 30%;
@@ -258,7 +258,7 @@ header {
 	width: 100vw;
 	min-height: 100vh;
 	padding-top: 30rem;
-	background-color: #001220;
+	background-color: black;
 	display: block !important;
 	visibility: hidden;
 	opacity: 0;

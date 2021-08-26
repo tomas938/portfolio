@@ -1,6 +1,6 @@
 <template>
 	<footer>
-		<i class="fas fa-copyright"></i> <span>Portfolio.</span> 2021 created by
+		<i class="fas fa-copyright"></i><span>Portfolio.</span> 2021 created by
 		<span>Tomáš </span>
 	</footer>
 </template>

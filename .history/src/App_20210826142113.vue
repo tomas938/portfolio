@@ -1,11 +1,13 @@
 <template>
-	<Preloader></Preloader>
-	<Navigation></Navigation>
-	<Intro></Intro>
-	<Projects></Projects>
-	<About></About>
-	<Contact></Contact>
-	<Footer></Footer>
+	<body @preloaded="over()" :class="{ deactive: hide, active: !hide }">
+		<Preloader></Preloader>
+		<Navigation></Navigation>
+		<Intro></Intro>
+		<Projects></Projects>
+		<About></About>
+		<Contact></Contact>
+		<Footer></Footer>
+	</body>
 </template>
 
 <script>
@@ -26,12 +28,19 @@ export default {
 		Footer,
 		Preloader,
 	},
+	data() {
+		return {
+			hide: true,
+		};
+	},
 };
 </script>
 
 <style lang="scss">
 @import "@/scss/main.scss";
-
+.deactive {
+	overflow: hidden !important;
+}
 * {
 	margin: 0;
 	padding: 0;

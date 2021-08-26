@@ -26,6 +26,9 @@ export default {
 		Footer,
 		Preloader,
 	},
+	data() {
+		return {};
+	},
 };
 </script>
 

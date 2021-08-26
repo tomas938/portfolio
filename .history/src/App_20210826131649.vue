@@ -1,5 +1,4 @@
 <template>
-	<Preloader></Preloader>
 	<Navigation></Navigation>
 	<Intro></Intro>
 	<Projects></Projects>
@@ -9,7 +8,6 @@
 </template>
 
 <script>
-import Preloader from "./components/Preloader.vue";
 import Intro from "./components/Intro.vue";
 import Navigation from "./components/Navigation.vue";
 import Projects from "./components/Projects.vue";
@@ -17,21 +15,12 @@ import About from "./components/About.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
 export default {
-	components: {
-		Intro,
-		Navigation,
-		Projects,
-		About,
-		Contact,
-		Footer,
-		Preloader,
-	},
+	components: { Intro, Navigation, Projects, About, Contact, Footer },
 };
 </script>
 
 <style lang="scss">
 @import "@/scss/main.scss";
-
 * {
 	margin: 0;
 	padding: 0;

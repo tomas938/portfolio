@@ -1,11 +1,13 @@
 <template>
-	<Preloader></Preloader>
-	<Navigation></Navigation>
-	<Intro></Intro>
-	<Projects></Projects>
-	<About></About>
-	<Contact></Contact>
-	<Footer></Footer>
+	<body @preloaded="over()" :class="{ deactive: hide, active: !hide }">
+		<Preloader></Preloader>
+		<Navigation></Navigation>
+		<Intro></Intro>
+		<Projects></Projects>
+		<About></About>
+		<Contact></Contact>
+		<Footer></Footer>
+	</body>
 </template>
 
 <script>

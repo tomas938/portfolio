@@ -1,11 +1,13 @@
 <template>
-	<Preloader></Preloader>
-	<Navigation></Navigation>
-	<Intro></Intro>
-	<Projects></Projects>
-	<About></About>
-	<Contact></Contact>
-	<Footer></Footer>
+	<body @preloaded="over()" :style="{ overflow: hidden }">
+		<Preloader></Preloader>
+		<Navigation></Navigation>
+		<Intro></Intro>
+		<Projects></Projects>
+		<About></About>
+		<Contact></Contact>
+		<Footer></Footer>
+	</body>
 </template>
 
 <script>
@@ -31,7 +33,6 @@ export default {
 
 <style lang="scss">
 @import "@/scss/main.scss";
-
 * {
 	margin: 0;
 	padding: 0;

@@ -58,7 +58,6 @@ html {
 body {
 	font-family: $font-primary;
 	background-color: $bg-color;
-	overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {

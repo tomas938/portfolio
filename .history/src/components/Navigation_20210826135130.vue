@@ -178,7 +178,7 @@ header {
 						display: block;
 						height: 4px;
 						width: 40%;
-						background-color: #001220;
+						background-color: black;
 						position: absolute;
 						top: 110%;
 						left: 30%;

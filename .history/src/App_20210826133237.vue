@@ -31,7 +31,6 @@ export default {
 
 <style lang="scss">
 @import "@/scss/main.scss";
-
 * {
 	margin: 0;
 	padding: 0;

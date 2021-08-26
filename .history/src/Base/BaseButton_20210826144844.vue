@@ -25,7 +25,7 @@ export default {
 	animation-fill-mode: backwards;
 	@media only screen and (max-width: 650px) {
 		justify-content: center;
-		padding: 3.5rem 5rem;
+		padding: 3rem 5rem;
 	}
 
 	i {

@@ -1,11 +1,13 @@
 <template>
-	<Preloader></Preloader>
-	<Navigation></Navigation>
-	<Intro></Intro>
-	<Projects></Projects>
-	<About></About>
-	<Contact></Contact>
-	<Footer></Footer>
+	<body :style="">
+		<Preloader></Preloader>
+		<Navigation></Navigation>
+		<Intro></Intro>
+		<Projects></Projects>
+		<About></About>
+		<Contact></Contact>
+		<Footer></Footer>
+	</body>
 </template>
 
 <script>
@@ -58,7 +60,6 @@ html {
 body {
 	font-family: $font-primary;
 	background-color: $bg-color;
-	overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
